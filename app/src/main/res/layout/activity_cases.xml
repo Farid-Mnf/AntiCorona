@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#173F5F"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".CasesActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="10dp"
+        android:layout_weight="1.5"
+        android:src="@mipmap/virus" />
+
+    <TextView
+        android:id="@+id/countryName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="50dp"
+        android:autoSizeTextType="uniform"
+        android:background="@drawable/rounded_edit_text"
+        android:fontFamily="serif-monospace"
+        android:minHeight="100dp"
+        android:text="SAMPLE"
+        android:textAlignment="center"
+        android:textColor="@color/light_yellow"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/cases"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="10dp"
+        android:layout_weight=".5"
+        android:autoSizeTextType="uniform"
+        android:background="@drawable/border1"
+        android:paddingLeft="10dp"
+        android:text="Cases:\t\t\t"
+        android:textColor="#FFBF00"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/recovered"
+
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="10dp"
+        android:layout_weight=".5"
+        android:autoSizeTextType="uniform"
+        android:background="@drawable/border2"
+        android:paddingLeft="10dp"
+        android:text="Recovered:\t\t\t"
+        android:textColor="@color/green"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/deaths"
+
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".5"
+        android:autoSizeTextType="uniform"
+        android:background="@drawable/border3"
+        android:paddingLeft="10dp"
+        android:text="Deaths:\t\t\t"
+        android:textColor="#F44336"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+</LinearLayout>
