@@ -8,4 +8,7 @@
     <color name="light_yellow">#F6D55c</color>
     <color name="black">#000000</color>
     <color name="green">#00FF0A</color>
+    <color name="main_background">#173F5F</color>
+    <color name="app_name">#00E676</color>
+    <color name="ligh_yellow_gray">#E8E2CB</color>
 </resources>

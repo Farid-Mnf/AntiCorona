@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#173F5F"
+    android:background="@color/main_background"
     android:orientation="vertical"
     android:padding="20dp"
     tools:context=".CasesActivity">
@@ -20,16 +20,14 @@
         android:id="@+id/countryName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="50dp"
-        android:layout_marginRight="50dp"
+
         android:layout_marginBottom="50dp"
-        android:autoSizeTextType="uniform"
         android:background="@drawable/rounded_edit_text"
         android:fontFamily="serif-monospace"
-        android:minHeight="100dp"
         android:text="SAMPLE"
+        android:textSize="50dp"
         android:textAlignment="center"
-        android:textColor="@color/light_yellow"
+        android:textColor="@color/white"
         android:textStyle="bold" />
 
     <TextView
